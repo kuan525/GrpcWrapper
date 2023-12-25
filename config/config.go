@@ -23,7 +23,7 @@ func GetTraceCollectionUrl() string {
 }
 
 // 获取服务名
-func GetTraceServicename() string {
+func GetTraceServiceName() string {
 	return viper.GetString("grpcwrapper.trace.service_name")
 }
 
