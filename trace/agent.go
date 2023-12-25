@@ -2,8 +2,9 @@ package trace
 
 import (
 	"context"
-	"grpcwrapper/config"
 	"sync"
+
+	"github.com/kuan525/grpcwrapper/config"
 
 	"github.com/bytedance/gopkg/util/logger"
 	"go.opentelemetry.io/otel"

@@ -2,9 +2,10 @@ package etcd
 
 import (
 	"context"
-	"grpcwrapper/discov"
 	"testing"
 	"time"
+
+	"github.com/kuan525/grpcwrapper/discov"
 
 	"github.com/stretchr/testify/assert"
 )

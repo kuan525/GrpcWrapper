@@ -2,8 +2,9 @@ package server
 
 import (
 	"context"
-	ttrace "grpcwrapper/trace"
 	"testing"
+
+	ttrace "github.com/kuan525/grpcwrapper/trace"
 
 	"google.golang.org/grpc"
 )

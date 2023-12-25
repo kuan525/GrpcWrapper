@@ -3,7 +3,7 @@ package resolver
 import (
 	"context"
 	"fmt"
-	"grpcwrapper/discov"
+	"github.com/kuan525/grpcwrapper/discov"
 
 	"google.golang.org/grpc/attributes"
 	"google.golang.org/grpc/resolver"

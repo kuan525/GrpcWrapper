@@ -2,7 +2,7 @@ package client
 
 import (
 	"context"
-	"grpcwrapper/prome"
+	"github.com/kuan525/grpcwrapper/prome"
 	"testing"
 	"time"
 

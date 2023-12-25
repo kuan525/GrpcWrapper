@@ -2,7 +2,7 @@ package client
 
 import (
 	"context"
-	ttrace "grpcwrapper/trace"
+	ttrace "github.com/kuan525/grpcwrapper/trace"
 	"testing"
 
 	"google.golang.org/grpc/codes"

@@ -4,12 +4,13 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"grpcwrapper/discov"
 	"strconv"
 	"strings"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/kuan525/grpcwrapper/discov"
 
 	"github.com/bytedance/gopkg/util/logger"
 	clientv3 "go.etcd.io/etcd/client/v3"

@@ -2,8 +2,8 @@ package client
 
 import (
 	"context"
-	"grpcwrapper/prome"
-	"grpcwrapper/util"
+	"github.com/kuan525/grpcwrapper/prome"
+	"github.com/kuan525/grpcwrapper/util"
 
 	"github.com/prometheus/client_golang/prometheus"
 

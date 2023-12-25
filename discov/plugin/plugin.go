@@ -3,9 +3,10 @@ package plugin
 import (
 	"errors"
 	"fmt"
-	"grpcwrapper/config"
-	"grpcwrapper/discov"
-	"grpcwrapper/discov/etcd"
+
+	"github.com/kuan525/grpcwrapper/config"
+	"github.com/kuan525/grpcwrapper/discov"
+	"github.com/kuan525/grpcwrapper/discov/etcd"
 )
 
 func GetDiscovInstance() (discov.Discovery, error) {

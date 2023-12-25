@@ -2,8 +2,9 @@ package server
 
 import (
 	"context"
-	"grpcwrapper/code"
 	"testing"
+
+	"github.com/kuan525/grpcwrapper/code"
 
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"

@@ -2,7 +2,7 @@ package server
 
 import (
 	"context"
-	"grpcwrapper/code"
+	"github.com/kuan525/grpcwrapper/code"
 	"time"
 
 	"github.com/bytedance/gopkg/util/logger"

@@ -3,7 +3,7 @@ package server
 import (
 	"context"
 
-	ttrace "grpcwrapper/trace"
+	ttrace "github.com/kuan525/grpcwrapper/trace"
 
 	"go.opentelemetry.io/otel"
 	"go.opentelemetry.io/otel/codes"
